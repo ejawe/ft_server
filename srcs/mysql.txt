@@ -1,0 +1,4 @@
+CREATE USER 'dori'@'localhost';
+CREATE DATABASE dori;
+GRANT ALL PRIVILEGES ON dori.* TO 'dori'@'localhost' identified by 'mdpdori';
+FLUSH PRIVILEGES;
